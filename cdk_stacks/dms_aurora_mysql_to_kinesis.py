@@ -38,7 +38,6 @@ class DMSAuroraMysqlToKinesisStack(Stack):
       allocated_storage=50,
       allow_major_version_upgrade=False,
       auto_minor_version_upgrade=False,
-      engine_version='3.4.6',
       multi_az=False,
       preferred_maintenance_window='sat:03:17-sat:03:47',
       publicly_accessible=False,
